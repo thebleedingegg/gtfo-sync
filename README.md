@@ -14,6 +14,6 @@ and selecting options.
 
 navigate to https://gtfo-sync.appspot.com/help for more info
 
-GTFO-Sync is liscenced GNU/AGPL
+GTFO-Sync is licenced GNU/AGPL
 
 There will be a second version if anyone has input
