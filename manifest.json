@@ -1,0 +1,40 @@
+{
+  "name": "GTFO-Sync",
+  "version": "1.3.6",
+  "manifest_version": 2,
+  "description": "General Tab Framwork Optimization Service - Logs HID Input events to MongoLAB. See https://gtfo-sync.appspot.com/help for instructions.",
+  "homepage_url": "https://gtfo-sync.appspot.com",
+  "options_page": "options.html",
+
+  "icons": {
+     "48": "icons/gtfo-48.png",
+     "64": "icons/gtfo-64.png",
+    "128": "icons/gtfo-128.png",
+    "256": "icons/gtfo-256.png"
+  },
+
+  "page_action": {
+     "default_popup": "options.html"
+  },
+
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "storage",
+    "activeTab"
+  ]
+}

@@ -1,0 +1,21 @@
+.segm {
+          display: inline;
+          margin-bottom: 1em;
+}
+
+.txtbx {
+           display: inline;
+           color: green;
+           text-align: center;
+           float:right;
+}
+
+.logbx {
+  width: 100%;
+  padding: 5%;
+  height: 0%;
+  /*z-indes: -1; */
+  overflow-y: scroll;
+  background: #fff;
+}
+
